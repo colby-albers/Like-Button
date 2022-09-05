@@ -1,0 +1,42 @@
+*{
+    font-family: cursive;
+}
+
+.container{
+    float: left;
+    margin: 10px 5px 10px 100px;
+    background-color: white;
+    height: 200px;
+    width: 600px;
+    border: 2px black solid;
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    color: black;
+    list-style: none;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: yellow;
+    border-radius: 2px;
+    border-color: black;
+    box-shadow: 10px 5px 5px black;
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+.likes{
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+h1,h4{
+    padding-bottom: 30px;
+}
